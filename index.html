@@ -75,7 +75,7 @@
     <div id="video-container">
         <div id="joke-text" class="overlay-text"></div>
         <video id="video">
-            <source src="https://github.com/dustinhale14-max/Eaglercraft-Clients-by-Dustin-Hale/raw/refs/heads/main/InShot_20260508_164559311.mp4" type="video/mp4">
+            <source src="https://raw.githubusercontent.com/DaniilStolyarov/rickroll-exe/refs/heads/main/rickroll.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -87,11 +87,11 @@
         const video = document.getElementById('video');
         const jokeText = document.getElementById('joke-text');
 
-        // 1. Show first image for 5 seconds
+        // 1. Show first image for 7 seconds
         setTimeout(() => {
             screen1.style.display = 'none';
             screen2.style.display = 'flex';
-        }, 5000);
+        }, 7000);
 
         // 2. Click second image to start video and fullscreen
         screen2.addEventListener('click', () => {
@@ -110,9 +110,10 @@
 
             // 3. Handle the text sequence
             jokeText.innerHTML = "Dont worry, i wont crash your potato chromebook";
-            
+
+            //sorry, i just couldnt resist
             setTimeout(() => {
-                jokeText.innerHTML = "Just Kidding. <br> happy april fools! :>";
+                jokeText.innerHTML = "Just Kidding <br> happy april fools! :>";
             }, 5000);
         });
     </script>
